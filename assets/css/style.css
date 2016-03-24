@@ -1,0 +1,25 @@
+/*GENERAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 300px;
+  margin: 25% auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*ELEMENTS*/
+
+input {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
