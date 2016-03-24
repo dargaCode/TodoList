@@ -24,7 +24,7 @@ ul#todo-items {
   list-style: none;
 }
 
-li.disabled {
+li.completed {
   text-decoration: line-through;
   color: #DDDDDD;
 }
