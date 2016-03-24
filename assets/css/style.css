@@ -16,10 +16,10 @@ h1 {
 
 /*ELEMENTS*/
 
-input {
+input#text-input {
   width: 100%;
 }
 
-ul {
+ul#todo-items {
   list-style: none;
 }
