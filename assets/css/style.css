@@ -23,3 +23,8 @@ input#text-input {
 ul#todo-items {
   list-style: none;
 }
+
+li.disabled {
+  text-decoration: line-through;
+  color: #DDDDDD;
+}
