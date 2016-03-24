@@ -7,3 +7,8 @@ items.on("click", function() {
   $(this).toggleClass("completed");
 });
 
+deleteButtons.on("click", function() {
+  $(this).parent().fadeOut(function() {
+    $(this).remove();
+  });
+});
