@@ -24,6 +24,10 @@ ul#todo-items {
   list-style: none;
 }
 
+li {
+  transition: color 0.5s;
+}
+
 li.completed {
   text-decoration: line-through;
   color: #DDDDDD;
