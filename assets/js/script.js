@@ -9,10 +9,11 @@ items.on("click", function() {
   $(this).toggleClass("completed");
 });
 
-deleteButtons.on("click", function() {
+deleteButtons.on("click", function(event) {
   $(this).parent().fadeOut(function() {
     $(this).remove();
   });
+  event.stopPropagation();
 });
 
 itemInput.on("keypress", function(keyEvent) {
