@@ -1,3 +1,5 @@
+var ENTER_KEY_ID = 13;
+
 var itemInput = $("#text-input");
 var list = $("#todo-items");
 var items = $("#todo-items li");
