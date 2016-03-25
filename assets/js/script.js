@@ -9,7 +9,7 @@ list.on("click", "li", function() {
   $(this).toggleClass("completed");
 });
 
-deleteButtons.on("click", function(event) {
+list.on("click", "li span", function(event) {
   $(this).parent().fadeOut(500, function() {
     $(this).remove();
   });
