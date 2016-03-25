@@ -20,7 +20,9 @@ itemInput.on("keypress", function(keyEvent) {
   var itemText = $(this).val();
   if(keyEvent.which === ENTER_KEY_ID && itemText !== "") {
     var listItem = $("<li><span>X </span>" + itemText + "</li>");
+    listItem.hide();
     list.append(listItem);
+    listItem.fadeIn(500);
     $(this).val("");
   }
 });
