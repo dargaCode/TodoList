@@ -10,7 +10,7 @@ items.on("click", function() {
 });
 
 deleteButtons.on("click", function(event) {
-  $(this).parent().fadeOut(function() {
+  $(this).parent().fadeOut(500, function() {
     $(this).remove();
   });
   event.stopPropagation();
