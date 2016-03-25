@@ -19,7 +19,8 @@ deleteButtons.on("click", function(event) {
 itemInput.on("keypress", function(keyEvent) {
   var itemText = $(this).val();
   if(keyEvent.which === ENTER_KEY_ID && itemText !== "") {
-    list.append("<li><span>X </span>" + itemText + "<li>");
+    var listItem = $("<li><span>X </span>" + itemText + "</li>");
+    list.append(listItem);
     $(this).val("");
   }
 });
