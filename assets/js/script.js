@@ -18,5 +18,6 @@ deleteButtons.on("click", function() {
 itemInput.on("keypress", function(keyEvent) {
   if(keyEvent.which === ENTER_KEY_ID) {
     alert($(this).val());
+    $(this).val("");
   }
 });
