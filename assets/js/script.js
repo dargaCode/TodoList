@@ -14,3 +14,9 @@ deleteButtons.on("click", function() {
     $(this).remove();
   });
 });
+
+itemInput.on("keypress", function(keyEvent) {
+  if(keyEvent.which === ENTER_KEY_ID) {
+    alert($(this).val());
+  }
+});
