@@ -46,6 +46,10 @@ ul li {
   transition: color 0.5s;
 }
 
+ul li:nth-of-type(even) {
+  background-color: white;
+}
+
 ul li.completed {
   text-decoration: line-through;
   color: #DDDDDD;
