@@ -9,15 +9,19 @@ function addItemToggleEvent() {
   });
 }
 
-addItemToggleEvent();
-
-
-list.on("click", "li span", function(event) {
-  $(this).parent().fadeOut(500, function() {
-    $(this).remove();
+function addItemRemoveEvent() {
+  list.on("click", "li span", function(event) {
+    $(this).parent().fadeOut(500, function() {
+      $(this).remove();
+    });
+    event.stopPropagation();
   });
-  event.stopPropagation();
-});
+}
+
+addItemToggleEvent();
+addItemRemoveEvent();
+
+
 
 itemInput.on("keypress", function(keyEvent) {
   var itemText = $(this).val();
