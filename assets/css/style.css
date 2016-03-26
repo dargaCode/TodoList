@@ -54,6 +54,10 @@ h1 {
   color: black;
 }
 
+#text-input:hover {
+  color: black;
+}
+
 #text-input:focus {
   color: black;
   border: 2px solid #2980e9;
