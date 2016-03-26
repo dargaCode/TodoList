@@ -38,6 +38,14 @@ h1 {
   border: none;
 }
 
+#text-input::-webkit-input-placeholder {
+  color: #2980e9;
+}
+
+#text-input::-moz-placeholder {
+  color: #2980e9;
+}
+
 /*LIST*/
 
 #todo-items {
