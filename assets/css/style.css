@@ -91,5 +91,11 @@ ul li.completed {
 }
 
 ul li span {
+  color: white;
+  background-color: #e74c3c;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  width: 40;
   margin-right: 16px;
 }
