@@ -43,7 +43,7 @@ function addItemDestroyEvent() {
 // HELPER FUNCTIONS
 
 function createListItem(text) {
-  var listItem = $("<li><span>X </span>" + text + "</li>");
+  var listItem = $("<li><span>X</span> " + text + "</li>");
   listItem.hide();
   list.append(listItem);
   listItem.fadeIn(500);
