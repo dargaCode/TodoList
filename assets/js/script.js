@@ -3,9 +3,15 @@ var ENTER_KEY_ID = 13;
 var itemInput = $("#text-input");
 var list = $("#todo-items");
 
-list.on("click", "li", function() {
-  $(this).toggleClass("completed");
-});
+
+function addItemToggle() {
+  list.on("click", "li", function() {
+    $(this).toggleClass("completed");
+  });
+}
+
+addItemToggle();
+
 
 list.on("click", "li span", function(event) {
   $(this).parent().fadeOut(500, function() {
