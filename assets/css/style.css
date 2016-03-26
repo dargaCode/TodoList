@@ -26,10 +26,13 @@ h1 {
   padding: 10px 20px;
 }
 
+/*INPUT*/
 
 #text-input {
   width: 100%;
 }
+
+/*LIST*/
 
 #todo-items {
   list-style: none;
