@@ -102,7 +102,7 @@ ul li span {
   transition: 0.2s linear;
 }
 
-li:hover span {
+ul li:hover span {
   width: 40px;
   opacity: 1;
 }
