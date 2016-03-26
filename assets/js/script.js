@@ -1,7 +1,13 @@
+// CONSTANTS
+
 var ENTER_KEY_ID = 13;
+
+// VARIABLES
 
 var itemInput = $("#text-input");
 var list = $("#todo-items");
+
+// EVENTS
 
 function addEvents() {
   addItemCreateEvent();
@@ -37,5 +43,10 @@ function addItemDestroyEvent() {
   });
 }
 
+// HELPER FUNCTIONS
+
+
+
+// MAIN
 
 addEvents();
