@@ -46,10 +46,12 @@ h1 {
   color: #2980e9;
 }
 
+#text-input:hover::-webkit-input-placeholder,
 #text-input:focus::-webkit-input-placeholder {
   color: black;
 }
 
+#text-input:hover::-moz-placeholder,
 #text-input:focus::-moz-placeholder {
   color: black;
 }
