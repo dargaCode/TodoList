@@ -93,9 +93,15 @@ ul li.completed {
 ul li span {
   color: white;
   background-color: #e74c3c;
+  opacity: 0;
   font-size: 18px;
   text-align: center;
   display: inline-block;
-  width: 40px;
+  width: 0;
   margin-right: 16px;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
 }
