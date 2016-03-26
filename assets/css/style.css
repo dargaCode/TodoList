@@ -46,6 +46,14 @@ h1 {
   color: #2980e9;
 }
 
+#text-input:focus::-webkit-input-placeholder {
+  color: black;
+}
+
+#text-input:focus::-moz-placeholder {
+  color: black;
+}
+
 #text-input:focus {
   color: black;
   border: 2px solid #2980e9;
