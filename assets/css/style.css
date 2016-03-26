@@ -8,6 +8,8 @@
 
 body {
   font-family: Roboto, sans-serif;
+  background: #4B79A1; /* fallback for old browsers */
+  background: linear-gradient(to left, #4B79A1 , #283E51);
 }
 
 .container {
