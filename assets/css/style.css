@@ -46,6 +46,11 @@ h1 {
   color: #2980e9;
 }
 
+#text-input:focus {
+  border: 2px solid #2980e9;
+  outline: none;
+}
+
 /*LIST*/
 
 #todo-items {
