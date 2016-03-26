@@ -99,6 +99,7 @@ ul li span {
   display: inline-block;
   width: 0;
   margin-right: 16px;
+  transition: 0.2s linear;
 }
 
 li:hover span {
