@@ -3,6 +3,12 @@ var ENTER_KEY_ID = 13;
 var itemInput = $("#text-input");
 var list = $("#todo-items");
 
+function addEvents() {
+  addItemCreateEvent();
+  addItemToggleEvent();
+  addItemDestroyEvent();
+}
+
 function addItemCreateEvent() {
   itemInput.on("keypress", function(keyEvent) {
     var itemText = $(this).val();
@@ -31,6 +37,5 @@ function addItemDestroyEvent() {
   });
 }
 
-addItemCreateEvent();
-addItemToggleEvent();
-addItemDestroyEvent();
+
+addEvents();
