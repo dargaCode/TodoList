@@ -32,10 +32,10 @@ h1 {
 
 #text-input {
   color: #2980e9;
-  width: 100%;
-  height: 40px;
   font-size: 18px;
   line-height: 40px;
+  width: 100%;
+  height: 40px;
   padding: 0 20px;
   border: none;
 }
