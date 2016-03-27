@@ -30,7 +30,7 @@ h1 {
 
 /*HEADER*/
 
-.header h1 i {
+.header h1 span {
   float: right;
 }
 
