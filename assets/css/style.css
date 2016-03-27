@@ -77,15 +77,15 @@ h1 {
   color: #2980e9;
 }
 
+#create:hover {
+  color: black;
+}
+
 #create:focus::-webkit-input-placeholder {
   color: black;
 }
 
 #create:focus::-moz-placeholder {
-  color: black;
-}
-
-#create:hover {
   color: black;
 }
 
