@@ -59,6 +59,10 @@ h1 {
   opacity: 1;
 }
 
+.edit:hover #create {
+  text-indent: 40px;
+}
+
 /*CREATE*/
 
 #create {
