@@ -48,8 +48,15 @@ h1 {
   line-height: 40px;
   position: absolute;
   top: 0;
+  opacity: 0;
+  width: 0;
   height: 40px;
   transition: 0.2s linear;
+}
+
+.edit:hover span {
+  width: 40px;
+  opacity: 1;
 }
 
 .edit #create {
