@@ -106,6 +106,8 @@ h1 {
 #create:focus + span {
   width: 40px;
   opacity: 1;
+  color: white;
+  background-color: #2980e9;
 }
 
 /*TASKS*/
