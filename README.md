@@ -9,4 +9,4 @@ Unfortunately a refresh resets the list, but this project could be a good candid
 
 <a href="http://dargacode.github.io/UdemyTaskTracker/">Live Webpage</a>
 
-<img src ="http://41.media.tumblr.com/c33dcbdfa088167d03fb467e478b8e2d/tumblr_inline_o4p58ktCRC1tvc5hi_1280.png" width=“500" height="500">
+<img src ="http://41.media.tumblr.com/c33dcbdfa088167d03fb467e478b8e2d/tumblr_inline_o4p58ktCRC1tvc5hi_1280.png" width=“500">
