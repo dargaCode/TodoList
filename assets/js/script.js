@@ -16,6 +16,12 @@ function addEvents() {
   addItemDestroyEvent();
 }
 
+function addEditToggleEvent() {
+  editToggle.on("click", function() {
+    alert("edit toggle clicked!");
+  });
+}
+
 function addItemCreateEvent() {
   itemInput.on("keypress", function(keyEvent) {
     var itemText = $(this).val();
