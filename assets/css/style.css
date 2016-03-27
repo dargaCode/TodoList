@@ -103,6 +103,11 @@ h1 {
   text-indent: 40px;
 }
 
+#create:focus + span {
+  width: 40px;
+  opacity: 1;
+}
+
 /*TASKS*/
 
 #tasks {
