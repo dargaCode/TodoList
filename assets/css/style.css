@@ -46,6 +46,8 @@ h1 {
   font-size: 18px;
   text-align: center;
   line-height: 40px;
+  position: absolute;
+  top: 0;
   height: 40px;
   transition: 0.2s linear;
 }
