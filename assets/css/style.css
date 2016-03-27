@@ -54,12 +54,10 @@ h1 {
   color: #2980e9;
 }
 
-#create:hover::-webkit-input-placeholder,
 #create:focus::-webkit-input-placeholder {
   color: black;
 }
 
-#create:hover::-moz-placeholder,
 #create:focus::-moz-placeholder {
   color: black;
 }
