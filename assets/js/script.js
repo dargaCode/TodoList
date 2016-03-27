@@ -19,7 +19,9 @@ function addEvents() {
 
 function addEditToggleEvent() {
   editToggle.on("click", function() {
-    alert("edit toggle clicked!");
+    var icon = $(this).children("i");
+    icon.toggleClass("fa-edit");
+    icon.toggleClass("fa-times");
   });
 }
 
