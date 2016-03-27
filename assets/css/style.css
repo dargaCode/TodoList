@@ -30,7 +30,7 @@ h1 {
 
 /*INPUT*/
 
-#text-input {
+#create {
   color: #2980e9;
   font-size: 18px;
   line-height: 40px;
@@ -40,29 +40,29 @@ h1 {
   border: none;
 }
 
-#text-input::-webkit-input-placeholder {
+#create::-webkit-input-placeholder {
   color: #2980e9;
 }
 
-#text-input::-moz-placeholder {
+#create::-moz-placeholder {
   color: #2980e9;
 }
 
-#text-input:hover::-webkit-input-placeholder,
-#text-input:focus::-webkit-input-placeholder {
+#create:hover::-webkit-input-placeholder,
+#create:focus::-webkit-input-placeholder {
   color: black;
 }
 
-#text-input:hover::-moz-placeholder,
-#text-input:focus::-moz-placeholder {
+#create:hover::-moz-placeholder,
+#create:focus::-moz-placeholder {
   color: black;
 }
 
-#text-input:hover {
+#create:hover {
   color: black;
 }
 
-#text-input:focus {
+#create:focus {
   color: black;
   border: 2px solid #2980e9;
   outline: none;

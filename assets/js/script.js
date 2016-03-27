@@ -4,7 +4,7 @@ var ENTER_KEY_ID = 13;
 
 // VARIABLES
 
-var itemInput = $("#text-input");
+var itemInput = $("#create");
 var list = $("#tasks");
 
 // EVENTS
