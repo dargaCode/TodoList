@@ -7,6 +7,6 @@ I made some changes from the example, and ended up using a branch for the first 
 
 Unfortunately a refresh resets the list, but this project could be a good candidate to revisit after I learn to save data in cookies. 
 
-<a href="http://dargacode.github.io/UdemyTaskTracker/">Live Webpage</a>
+<a href="http://dargacode.github.io/UdemyTaskTracker/"><strong>Live Webpage</strong></a>
 
 <img src ="http://41.media.tumblr.com/c33dcbdfa088167d03fb467e478b8e2d/tumblr_inline_o4p58ktCRC1tvc5hi_1280.png" width=“300" height="300">
