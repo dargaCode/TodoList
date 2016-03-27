@@ -74,23 +74,23 @@ h1 {
   list-style: none;
 }
 
-ul li {
+#tasks li {
   color: #666;
   height: 40px;
   line-height: 40px;
   transition: color 0.5s;
 }
 
-ul li:nth-of-type(even) {
+#tasks li:nth-of-type(even) {
   background-color: white;
 }
 
-ul li.completed {
+#tasks li.completed {
   text-decoration: line-through;
   color: #DDDDDD;
 }
 
-ul li span {
+#tasks li span {
   color: white;
   background-color: #e74c3c;
   opacity: 0;
@@ -102,7 +102,7 @@ ul li span {
   transition: 0.2s linear;
 }
 
-ul li:hover span {
+#tasks li:hover span {
   width: 40px;
   opacity: 1;
 }
