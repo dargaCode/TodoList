@@ -76,7 +76,7 @@ h1 {
 
 #tasks li {
   color: #666;
-  height: 40px;
+  min-height: 40px;
   line-height: 40px;
   transition: color 0.5s;
 }
