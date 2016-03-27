@@ -23,6 +23,7 @@ function addEditToggleEvent() {
     var icon = $(this).children("i");
     icon.toggleClass("fa-edit");
     icon.toggleClass("fa-times");
+    editControls.fadeToggle(200);
   });
 }
 
