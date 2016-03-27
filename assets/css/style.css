@@ -154,6 +154,7 @@ h1 {
   text-align: center;
   display: inline-block;
   width: 0;
+  height: 41px;
   margin-right: 16px;
   transition: 0.2s linear;
 }
