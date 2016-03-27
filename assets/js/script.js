@@ -12,7 +12,7 @@ var list = $("#tasks");
 
 function addEvents() {
   addItemCreateEvent();
-  addItemToggleEvent();
+  addItemToggleCompletedEvent();
   addItemDestroyEvent();
 }
 
@@ -26,7 +26,7 @@ function addItemCreateEvent() {
   });
 }
 
-function addItemToggleEvent() {
+function addItemToggleCompletedEvent() {
   list.on("click", "li", function() {
     $(this).toggleClass("completed");
   });
