@@ -30,6 +30,9 @@ h1 {
 
 /*HEADER*/
 
+.header h1 i {
+  float: right;
+}
 
 /*EDIT*/
 
