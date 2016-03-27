@@ -4,6 +4,7 @@ var ENTER_KEY_ID = 13;
 
 // VARIABLES
 
+var editToggle = $("#edit-toggle");
 var itemInput = $("#create");
 var list = $("#tasks");
 
