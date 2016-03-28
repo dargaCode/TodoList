@@ -39,8 +39,7 @@ function addItemCreateEvent() {
   itemInput.on("keypress", function(keyEvent) {
     var itemText = $(this).val();
     if(keyEvent.which === ENTER_KEY_ID && itemText !== "") {
-      createListItem(itemText);
-      $(this).val("");
+      submitNewTask(itemText);
     }
   });
 }
@@ -61,6 +60,11 @@ function addItemDestroyEvent() {
 }
 
 // HELPER FUNCTIONS
+
+function submitNewTask(text) {
+  createListItem(text);
+  itemInput.val("");
+}
 
 function createListItem(text) {
   var listItem = $("<li><span><i class='fa fa-trash'></i></span> " + text + "</li>");
