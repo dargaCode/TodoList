@@ -34,7 +34,7 @@ function addEditToggleEvent() {
 function addEditSubmitEvent() {
   editSubmit.on("click", function() {
     var itemText = itemInput.val();
-    if (itemText !== "") {
+    if (isInputReadyToSubmit()) {
       submitNewTask(itemText);
     }
     itemInput.focus();
@@ -77,7 +77,7 @@ function isInputReadyToSubmit() {
 
 function updateSubmitSpanIcon() {
   var itemText = itemInput.val();
-  if (itemText !== "") {
+  if (isInputReadyToSubmit()) {
     switchSubmitIconToCreate();
   }
   else {
