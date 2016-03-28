@@ -67,6 +67,16 @@ function addItemDestroyEvent() {
 
 // HELPER FUNCTIONS
 
+function updateSubmitSpanIcon() {
+  var itemText = itemInput.val();
+  if (itemText === "") {
+    console.log("switch to keyboard icon");
+  }
+  else {
+    console.log("switch to plus icon");
+  }
+}
+
 function submitNewTask(text) {
   createListItem(text);
   itemInput.val("");
