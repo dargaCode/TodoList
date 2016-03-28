@@ -38,6 +38,7 @@ function addEditSubmitEvent() {
     else {
       submitNewTask(itemText);
     }
+    updateSubmitSpanIcon();
   });
 }
 
