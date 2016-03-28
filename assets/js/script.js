@@ -1,6 +1,8 @@
 // CONSTANTS
 
 var ENTER_KEY_ID = 13;
+var SUBMIT_ICON_EDIT = "fa-keyboard-o";
+var SUBMIT_ICON_CREATE = "fa-plus";
 
 // VARIABLES
 
