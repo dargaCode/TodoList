@@ -82,13 +82,15 @@ function updateSubmitSpanIcon() {
 }
 
 function switchSubmitIconToEdit() {
-  editSubmit.children("i").removeClass("fa-plus");
-  editSubmit.children("i").addClass("fa-keyboard-o");
+  var icon = editSubmit.children("i");
+  icon.removeClass("fa-plus");
+  icon.addClass("fa-keyboard-o");
 }
 
 function switchSubmitIconToCreate() {
-  editSubmit.children("i").removeClass("fa-keyboard-o");
-  editSubmit.children("i").addClass("fa-plus");
+  var icon = editSubmit.children("i");
+  icon.removeClass("fa-keyboard-o");
+  icon.addClass("fa-plus");
 }
 
 function submitNewTask(text) {
