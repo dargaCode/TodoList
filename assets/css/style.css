@@ -78,6 +78,10 @@ h1 {
   text-indent: 40px;
 }
 
+.edit span .fa-plus {
+  color: limegreen;
+}
+
 /*CREATE*/
 
 #create {
