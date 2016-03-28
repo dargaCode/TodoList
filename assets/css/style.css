@@ -78,8 +78,13 @@ h1 {
   text-indent: 40px;
 }
 
+.edit span .fa-keyboard-o {
+  transition: color 0.2s linear;
+}
+
 .edit span .fa-plus {
   color: limegreen;
+  transition: color 0.2s linear;
 }
 
 /*CREATE*/
