@@ -14,6 +14,7 @@ var list = $("#tasks");
 
 function addEvents() {
   addEditToggleEvent();
+  addEditSubmitEvent();
   addItemCreateEvent();
   addItemToggleCompletedEvent();
   addItemDestroyEvent();
