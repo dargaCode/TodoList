@@ -110,8 +110,11 @@ function submitNewTask(text) {
 function createListItem(text) {
   var listItem = $("<li><span><i class='fa fa-trash'></i></span> " + text + "</li>");
   listItem.hide();
+  listItem.addClass("new");
   taskList.append(listItem);
-  listItem.fadeIn(500);
+  listItem.fadeIn(500, function() {
+    listItem.removeClass("new");
+  });
 }
 
 // MAIN
