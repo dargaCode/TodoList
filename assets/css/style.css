@@ -173,3 +173,7 @@ h1 {
   width: 40px;
   opacity: 1;
 }
+
+#tasks li .help-icon {
+  color: #2980e9;
+}
