@@ -6,6 +6,7 @@ var ENTER_KEY_ID = 13;
 
 var editToggle = $("#edit-toggle");
 var editControls = $(".edit");
+var editSubmit = $("#edit-submit-span")
 var itemInput = $("#create");
 var list = $("#tasks");
 
