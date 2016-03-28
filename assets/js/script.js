@@ -28,6 +28,12 @@ function addEditToggleEvent() {
   });
 }
 
+function addEditSubmitEvent() {
+  editSubmit.on("click", function() {
+    alert("clicked submit span");
+  });
+}
+
 function addItemCreateEvent() {
   itemInput.on("keypress", function(keyEvent) {
     var itemText = $(this).val();
