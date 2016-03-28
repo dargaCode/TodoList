@@ -43,7 +43,7 @@ function addEditSubmitEvent() {
 }
 
 function addItemCreateEvent() {
-  itemInput.on("keypress", function(keyEvent) {
+  itemInput.on("keyup", function(keyEvent) {
     var itemText = $(this).val();
     if(keyEvent.which === ENTER_KEY_ID && itemText !== "") {
       submitNewTask(itemText);
