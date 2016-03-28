@@ -25,6 +25,7 @@ function addEvents() {
 function addEditToggleEvent() {
   editToggle.on("click", function() {
     itemInput.val("");
+    updateSubmitSpanIcon();
     swapEditToggleIcons();
     editControls.fadeToggle(500);
   });
