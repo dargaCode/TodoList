@@ -31,7 +31,13 @@ function addEditToggleEvent() {
 
 function addEditSubmitEvent() {
   editSubmit.on("click", function() {
-    itemInput.focus();
+    var itemText = itemInput.val();
+    if (itemText === "") {
+      itemInput.focus();
+    }
+    else {
+      submitNewTask(itemText);
+    }
   });
 }
 
