@@ -86,6 +86,11 @@ function switchSubmitIconToEdit() {
   editSubmit.children("i").addClass("fa-keyboard-o");
 }
 
+function switchSubmitIconToCreate() {
+  editSubmit.children("i").removeClass("fa-keyboard-o");
+  editSubmit.children("i").addClass("fa-plus");
+}
+
 function submitNewTask(text) {
   createListItem(text);
   itemInput.val("");
