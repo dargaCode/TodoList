@@ -77,11 +77,11 @@ function isInputReadyToSubmit() {
 
 function updateSubmitSpanIcon() {
   var itemText = itemInput.val();
-  if (itemText === "") {
-    switchSubmitIconToEdit();
+  if (itemText !== "") {
+    switchSubmitIconToCreate();
   }
   else {
-    switchSubmitIconToCreate();
+    switchSubmitIconToEdit();
   }
 }
 
