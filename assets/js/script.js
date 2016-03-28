@@ -24,10 +24,8 @@ function addEvents() {
 
 function addEditToggleEvent() {
   editToggle.on("click", function() {
-    var icon = $(this).children("i");
     itemInput.val("");
-    icon.toggleClass("fa-edit");
-    icon.toggleClass("fa-times");
+    swapEditToggleIcons();
     editControls.fadeToggle(500);
   });
 }
@@ -69,6 +67,12 @@ function addItemDestroyEvent() {
 }
 
 // HELPER FUNCTIONS
+
+function swapEditToggleIcons() {
+    var icon = editToggle.children("i");
+    icon.toggleClass("fa-edit");
+    icon.toggleClass("fa-times");
+}
 
 function isInputReadyToSubmit() {
   var text = itemInput.val();
