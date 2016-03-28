@@ -48,6 +48,7 @@ function addItemCreateEvent() {
     if(keyEvent.which === ENTER_KEY_ID && itemText !== "") {
       submitNewTask(itemText);
     }
+    updateSubmitSpanIcon();
   });
 }
 
