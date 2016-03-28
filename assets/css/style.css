@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: Roboto, sans-serif;
   background: #4B79A1; /* fallback for old browsers */
