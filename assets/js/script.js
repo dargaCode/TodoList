@@ -81,6 +81,11 @@ function updateSubmitSpanIcon() {
   }
 }
 
+function switchSubmitIconToEdit() {
+  editSubmit.children("i").removeClass("fa-plus");
+  editSubmit.children("i").addClass("fa-keyboard-o");
+}
+
 function submitNewTask(text) {
   createListItem(text);
   itemInput.val("");
