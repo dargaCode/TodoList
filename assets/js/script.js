@@ -31,7 +31,7 @@ function addEditToggleEvent() {
 
 function addEditSubmitEvent() {
   editSubmit.on("click", function() {
-    alert("clicked submit span");
+    itemInput.focus();
   });
 }
 
