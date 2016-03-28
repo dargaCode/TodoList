@@ -34,12 +34,10 @@ function addEditToggleEvent() {
 function addEditSubmitEvent() {
   editSubmit.on("click", function() {
     var itemText = itemInput.val();
-    if (itemText === "") {
-      itemInput.focus();
-    }
-    else {
+    if (itemText !== "") {
       submitNewTask(itemText);
     }
+    itemInput.focus();
     updateSubmitSpanIcon();
   });
 }
