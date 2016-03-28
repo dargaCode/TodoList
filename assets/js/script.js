@@ -71,8 +71,7 @@ function addItemDestroyEvent() {
 
 function isInputReadyToSubmit() {
   var text = itemInput.val();
-  var focused = itemInput.is(":focus");
-  return focused && text !== "";
+  return text !== "";
 }
 
 function updateSubmitSpanIcon() {
