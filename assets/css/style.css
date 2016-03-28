@@ -155,6 +155,11 @@ h1 {
   background-color: white;
 }
 
+#tasks li.new {
+  color: white;
+  background-color: #2980e9;
+}
+
 #tasks li.completed {
   text-decoration: line-through;
   color: #DDDDDD;
