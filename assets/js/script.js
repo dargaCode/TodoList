@@ -10,7 +10,7 @@ var editToggle = $("#edit-toggle-span");
 var editControls = $(".edit");
 var editSubmit = $("#edit-submit-span")
 var itemInput = $("#create");
-var list = $("#tasks");
+var taskList = $("#tasks");
 
 // EVENTS
 
@@ -55,13 +55,13 @@ function addItemCreateEvent() {
 }
 
 function addItemToggleCompletedEvent() {
-  list.on("click", "li", function() {
+  taskList.on("click", "li", function() {
     $(this).toggleClass("completed");
   });
 }
 
 function addItemDestroyEvent() {
-  list.on("click", "li span", function(event) {
+  taskList.on("click", "li span", function(event) {
     $(this).parent().fadeOut(500, function() {
       $(this).remove();
     });
@@ -101,7 +101,7 @@ function submitNewTask(text) {
 function createListItem(text) {
   var listItem = $("<li><span><i class='fa fa-trash'></i></span> " + text + "</li>");
   listItem.hide();
-  list.append(listItem);
+  taskList.append(listItem);
   listItem.fadeIn(500);
 }
 
