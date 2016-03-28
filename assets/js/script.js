@@ -111,3 +111,4 @@ function createListItem(text) {
 // MAIN
 
 addEvents();
+updateSubmitSpanIcon();
