@@ -74,10 +74,10 @@ function addItemDestroyEvent() {
 function updateSubmitSpanIcon() {
   var itemText = itemInput.val();
   if (itemText === "") {
-    console.log("switch to keyboard icon");
+    switchSubmitIconToEdit();
   }
   else {
-    console.log("switch to plus icon");
+    switchSubmitIconToCreate();
   }
 }
 
