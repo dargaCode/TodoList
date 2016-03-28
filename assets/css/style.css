@@ -10,13 +10,13 @@ body {
   font-family: Roboto, sans-serif;
   background: #4B79A1; /* fallback for old browsers */
   background: linear-gradient(to left, #4B79A1 , #283E51);
-  padding: 0 15px;
+  padding: 10% 15px;
 }
 
 .container {
   background-color: #f7f7f7;
   max-width: 360px;
-  margin: 10% auto;
+  margin: 0 auto;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
