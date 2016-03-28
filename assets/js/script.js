@@ -25,6 +25,7 @@ function addEvents() {
 function addEditToggleEvent() {
   editToggle.on("click", function() {
     var icon = $(this).children("i");
+    itemInput.val("");
     icon.toggleClass("fa-edit");
     icon.toggleClass("fa-times");
     editControls.fadeToggle(500);
