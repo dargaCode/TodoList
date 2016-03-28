@@ -6,7 +6,7 @@ var SUBMIT_ICON_CREATE = "fa-plus";
 
 // VARIABLES
 
-var editToggle = $("#edit-toggle");
+var editToggle = $("#edit-toggle-span");
 var editControls = $(".edit");
 var editSubmit = $("#edit-submit-span")
 var itemInput = $("#create");
