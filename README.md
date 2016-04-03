@@ -1,5 +1,5 @@
 # Udemy Task Tracker
-<strong>Language: HTML/CSS/JS/JQUERY</strong>
+<strong>Language: HTML/CSS/JS+jQuery</strong>
 
 Another <a href="https://www.udemy.com/the-web-developer-bootcamp">Udemy course</a> project, and also my first project using jQuery! Surprisingly, the CSS turned out to be the tough part.
 
