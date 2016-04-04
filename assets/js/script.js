@@ -4,6 +4,7 @@ var ENTER_KEY_ID = 13;
 var SUBMIT_ICON_EDIT = "fa-keyboard-o";
 var SUBMIT_ICON_CREATE = "fa-plus";
 var TASK_PREFIX = '<span><i class="fa fa-trash"></i></span>';
+var FADE_DURATION = 500;
 
 var DEFAULT_TASKS = [
   'Click <i class="fa fa-edit help-icon"></i> to toggle create mode',
@@ -35,7 +36,7 @@ function addEditToggleEvent() {
     itemInput.val("");
     updateSubmitSpanIcon();
     swapEditToggleIcons();
-    editControls.fadeToggle(500);
+    editControls.fadeToggle(FADE_DURATION);
   });
 }
 
@@ -68,7 +69,7 @@ function addItemToggleCompletedEvent() {
 
 function addItemDestroyEvent() {
   taskList.on("click", "li span", function(event) {
-    $(this).parent().fadeOut(500, function() {
+    $(this).parent().fadeOut(FADE_DURATION, function() {
       $(this).remove();
     });
     event.stopPropagation();
@@ -125,7 +126,7 @@ function appendTaskElement(taskHTML) {
   taskElement.hide();
   taskElement.addClass("new");
   taskList.append(taskElement);
-  taskElement.fadeIn(500, function() {
+  taskElement.fadeIn(FADE_DURATION, function() {
     taskElement.removeClass("new");
   });
 }
