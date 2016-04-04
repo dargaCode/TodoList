@@ -3,6 +3,7 @@
 var ENTER_KEY_ID = 13;
 var SUBMIT_ICON_EDIT = "fa-keyboard-o";
 var SUBMIT_ICON_CREATE = "fa-plus";
+var TASK_PREFIX = '<span><i class="fa fa-trash"></i></span>';
 
 // VARIABLES
 
@@ -103,17 +104,22 @@ function switchSubmitIconToCreate() {
 }
 
 function submitNewTask(text) {
-  createListItem(text);
+  var taskString = generateTaskString(text);
+  appendTaskElement(taskString);
   itemInput.val("");
 }
 
-function createListItem(text) {
-  var listItem = $("<li><span><i class='fa fa-trash'></i></span> " + text + "</li>");
-  listItem.hide();
-  listItem.addClass("new");
-  taskList.append(listItem);
-  listItem.fadeIn(500, function() {
-    listItem.removeClass("new");
+function generateTaskString(textContent) {
+  return "<li>" + TASK_PREFIX + textContent + "</li>";
+}
+
+function appendTaskElement(taskHTML) {
+  var taskElement = $(taskHTML);
+  taskElement.hide();
+  taskElement.addClass("new");
+  taskList.append(taskElement);
+  taskElement.fadeIn(500, function() {
+    taskElement.removeClass("new");
   });
 }
 
