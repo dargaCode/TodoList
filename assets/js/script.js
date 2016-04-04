@@ -5,6 +5,13 @@ var SUBMIT_ICON_EDIT = "fa-keyboard-o";
 var SUBMIT_ICON_CREATE = "fa-plus";
 var TASK_PREFIX = '<span><i class="fa fa-trash"></i></span>';
 
+var DEFAULT_TASKS = [
+  'Click <i class="fa fa-edit help-icon"></i> to toggle create mode',
+  'Press Enter or click <i class="fa fa-plus help-icon"></i> to submit a task',
+  'Click a task to toggle completion',
+  'Hover a task and click <i class="fa fa-trash help-icon"></i> to delete'
+];
+
 // VARIABLES
 
 var editToggle = $("#edit-toggle-span");
