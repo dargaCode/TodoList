@@ -134,3 +134,7 @@ function appendTaskElement(taskHTML) {
 // MAIN
 
 addEvents();
+
+for (var i = 0; i < DEFAULT_TASKS.length; i++) {
+  submitNewTask(DEFAULT_TASKS[i]);
+}
