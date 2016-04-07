@@ -131,10 +131,17 @@ function appendTaskElement(taskHTML) {
   });
 }
 
+// used when initially loading the app
+function createTaskInstant(text) {
+  var taskString = generateTaskString(text);
+  var taskElement = $(taskString);
+  taskList.append(taskElement);
+}
+
 // MAIN
 
 addEvents();
 
 for (var i = 0; i < DEFAULT_TASKS.length; i++) {
-  submitNewTask(DEFAULT_TASKS[i]);
+  createTaskInstant(DEFAULT_TASKS[i]);
 }
